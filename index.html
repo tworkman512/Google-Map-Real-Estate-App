@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="options-box">
+        <h1>Find your New NYC Home</h1>
+        <div class="buttons-section">
+          <input id="show-listings" type="button" value="Show Listings">
+          <input id="hide-listings" type="button" value="Hide Listings">
+        </div>
+      </div>
+    </div>
+    <div id="map"></div>
+    <script src="js/scripts.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyClN0BkJez9nG0U-U9sOcLllB9eS6n7eKw&callback=initMap">
+    </script>
+    <!-- this is used for the street view but not working -->
+    <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyClN0BkJez9nG0U-U9sOcLllB9eS6n7eKw&libraries=geometry&v=3&callback=initMap">
+    </script> -->
+
+  </body>
+</html>
